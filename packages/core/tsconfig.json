@@ -1,3 +1,4 @@
 {
-  "extends": "@phoenix/tsconfig/base.json"
+  "extends": "@phoenix/tsconfig/base.json",
+  "include": ["./src"]
 }
