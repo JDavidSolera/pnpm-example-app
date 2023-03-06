@@ -1,0 +1,27 @@
+{
+  "name": "caeq-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^2.0.2",
+    "astro": "^2.0.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@phoenix/core": "workspace:*",
+    "@phoenix/utils": "workspace:*",
+    "@phoenix/design-system": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@phoenix/tsconfig": "workspace:*",
+    "eslint-config-custom": "workspace:*"
+  }
+}
