@@ -14,6 +14,7 @@ importers:
 
   apps/caeq:
     specifiers:
+      '@next/font': ^13.2.3
       '@phoenix/core': workspace:*
       '@phoenix/design-system': workspace:*
       '@phoenix/hooks': workspace:*
@@ -32,6 +33,7 @@ importers:
       styled-system: ^5.1.5
       typescript: 4.9.5
     dependencies:
+      '@next/font': 13.2.3
       '@phoenix/core': link:../../packages/core
       '@phoenix/design-system': link:../../packages/design-system
       '@phoenix/hooks': link:../../packages/hooks
@@ -3198,6 +3200,10 @@ packages:
     resolution: {integrity: sha512-z+gnX4Zizatqatc6f4CQrcC9oN8Us3Vrq/OLyc98h7K/eWctrnV91zFZodmJHUjx0cITY8uYM7LXD7IdYkg3kg==}
     dependencies:
       glob: 7.1.7
+    dev: false
+
+  /@next/font/13.2.3:
+    resolution: {integrity: sha512-7EHzk0f7FVYICLUZTpyPk93IfcTUao++Xt1Sgb+Zk5dVOCYHabqLtlF5ywSoXIqyFlo0qlshEBxsrzHAGTWkDw==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.2.3:
@@ -6654,7 +6660,7 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       picomatch: 2.3.1
-      styled-components: 5.3.8_react@18.2.0
+      styled-components: 5.3.8_biqbaboplfbrettd7655fr4n2y
     dev: false
 
   /babel-plugin-syntax-jsx/6.18.0:

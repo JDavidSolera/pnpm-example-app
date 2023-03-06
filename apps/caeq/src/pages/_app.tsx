@@ -1,7 +1,10 @@
 import type { AppProps } from "next/app";
+import { AppCaeqThemeProvider } from "@/theme";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Component {...pageProps} />
+    <AppCaeqThemeProvider>
+      <Component {...pageProps} />
+    </AppCaeqThemeProvider>
   );
 }

@@ -1,12 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  compiler: {
+    styledComponents: true,
+  },
   transpilePackages: [
-    "@phoenix/core",
     "@phoenix/design-system",
-    "@phoenix/hooks",
+    "@phoenix/core",
     "@phoenix/utils",
+    "@phoenix/hooks",
   ],
+  images: {
+    domains: ["catalogo.movistar.com.pe", "solera-qa.s3.amazonaws.com"],
+  }
 };
 
 module.exports = nextConfig;
