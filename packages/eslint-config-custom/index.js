@@ -8,6 +8,7 @@ module.exports = {
     "no-shadow": "off",
     "class-methods-use-this": "off",
     "react/jsx-props-no-spreading": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "react/require-default-props": "off"
   },
 };
